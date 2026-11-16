@@ -1,0 +1,14 @@
+node_modules/
+dist/
+server/public/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+
+# Personal message data produced by the ETL - never commit it.
+server/data/persona.json
+server/data/examples.jsonl
+server/data/finetune.jsonl
+*.db
+chat.db*
